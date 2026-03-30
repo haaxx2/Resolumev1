@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "name": "example-show-open",
+  "panels": [
+    { "id": "panel-1", "name": "Panel 1", "index": 0, "group": "A", "color": "#00bcd4", "enabled": true, "active": false },
+    { "id": "panel-2", "name": "Panel 2", "index": 1, "group": "A", "color": "#00bcd4", "enabled": true, "active": false },
+    { "id": "panel-3", "name": "Panel 3", "index": 2, "group": "A", "color": "#00bcd4", "enabled": true, "active": false },
+    { "id": "panel-4", "name": "Panel 4", "index": 3, "group": "A", "color": "#00bcd4", "enabled": true, "active": false },
+    { "id": "panel-5", "name": "Panel 5", "index": 4, "group": "A", "color": "#00bcd4", "enabled": true, "active": false },
+    { "id": "panel-6", "name": "Panel 6", "index": 5, "group": "A", "color": "#00bcd4", "enabled": true, "active": false },
+    { "id": "panel-7", "name": "Panel 7", "index": 6, "group": "A", "color": "#00bcd4", "enabled": true, "active": false },
+    { "id": "panel-8", "name": "Panel 8", "index": 7, "group": "A", "color": "#00bcd4", "enabled": true, "active": false }
+  ],
+  "groups": [{ "id": "group-a", "name": "A", "color": "#00bcd4" }],
+  "chase": {
+    "mode": "left-to-right",
+    "running": false,
+    "paused": false,
+    "speedMs": 250,
+    "bpm": 120,
+    "useBpmSync": false,
+    "stepSize": 1,
+    "loop": true,
+    "direction": "forward",
+    "selectedPanels": [],
+    "customOrder": [],
+    "retriggerMode": "replace",
+    "wrapMode": "wrap"
+  },
+  "transport": { "running": false, "paused": false, "currentStep": 0, "bpm": 120, "speedMs": 250 },
+  "midiMappings": [],
+  "settings": { "osc": { "host": "127.0.0.1", "port": 9000, "enabled": true } }
+}
